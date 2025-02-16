@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- <script defer src="script.js"></script> -->
+
+</head>
+<body>
+    <nav class="navbar">
+        <div  class="logo-container">
+            <img width ="200" src="imagas/Logo.png" alt="Logo" class="globe-logo">
+        </div>
+         <button class="menu-toggle">☰</button> 
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#we-do">We Do</a></li>
+            <li><a href="#history">History</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+ 
+        <button class="language-toggle">🌍EN/DE</button>
+    </nav>
+    
+    <section class="video-section">
+        <video autoplay loop muted>
+            <source src="imagas/video_A.mp4" type="video/mp4">
+            <!-- Your browser does not support the video tag. -->
+        </video>
+    </section>
+    
+    <section class="about-section">
+        <div class="about-content">
+            <h1>Welcome to Our Website</h1>
+            <p>Discover our work and history through our engaging videos and articles.</p>
+        </div>
+    </section>
+    
+    <section id="all-videos" class="video-gallery">
+        <!-- <center><a style="padding-top: 60px;" href="#all-videos" class="btn">View All Videos</a></center> -->
+         <div class="linlAllVidoeButton">
+            <a style="padding-top: 60px;" href="#all-videos" class="btn">View All Videos</a>
+         </div>
+         <button onclick="myFunction()">Try it</button>
+        <!-- <a style="padding-top: 60px;" href="#all-videos" class="btn">View All Videos</a> -->
+        <div class="video-grid">
+            <div class="video-item"><video controls><source src="imagas/video_A.mp4" type="video/mp4"></video></div>
+            <div class="video-item"><video controls><source src="imagas/video_A.mp4" type="video/mp4"></video></div>
+            <div class="video-item"><video controls><source src="imagas/video_A.mp4" type="video/mp4"></video></div>
+            <div class="video-item"><video controls><source src="imagas/video_A.mp4" type="video/mp4"></video></div>
+            <div class="video-item"><video controls><source src="imagas/video_A.mp4" type="video/mp4"></video></div>
+            <div class="video-item"><video controls><source src="imagas/video_A.mp4" type="video/mp4"></video></div>
+            <div class="video-item"><video controls><source src="imagas/video_A.mp4" type="video/mp4"></video></div>
+            <div class="video-item"><video controls><source src="imagas/video_A.mp4" type="video/mp4"></video></div>
+            <div class="video-item"><video controls><source src="imagas/video_A.mp4" type="video/mp4"></video></div>
+            <div class="video-item"><video controls><source src="imagas/video_A.mp4" type="video/mp4"></video></div>
+        </div>
+    </section>
+
+    <script defer src="script.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
